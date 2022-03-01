@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hugepage-1c-1p
+spec:
+  containers:
+  - name: example
+    #image: fedora:latest
+    #image: centos:latest
+    image: ubuntu:latest
+    command:
+    - sleep
+    - inf
+    volumeMounts:
+    - mountPath: /hugepages
+      name: hugepage
+    - mountPath: /root/dpdk
+      name: dpdk
+    - mountPath: /lib/aarch64-linux-gnu
+      name: lib
+    resources:
+      limits:
+        hugepages-2Mi: 100Mi
+        memory: 100Mi
+      requests:
+        memory: 100Mi
+  volumes:
+  - name: hugepage
+    emptyDir:
+      medium: HugePages
+  - name: dpdk
+    hostPath:
+      path: /home/cychong/tmp/dpdk-21.11/build/examples
+      type: Directory
+  - name: lib
+    hostPath:
+      path: /lib/aarch64-linux-gnu
+      type: Directory
