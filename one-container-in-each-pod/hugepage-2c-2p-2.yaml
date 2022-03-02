@@ -14,8 +14,11 @@ spec:
       name: dpdk
     - mountPath: /lib/aarch64-linux-gnu
       name: lib
-    - mountPath: /hugepages
-      name: mnt-huge
+    - mountPath: /dev
+      name: dev
+      # if non-default hugepage is used, uncomment the followings
+      #    - mountPath: /hugepages
+      #name: mnt-huge
     - mountPath: /var/run/dpdk
       name: dpdk-config
     resources:
@@ -28,9 +31,12 @@ spec:
   - name: hugepage
     emptyDir:
       medium: HugePages
-  - name: mnt-huge
+      #  - name: mnt-huge
+      #    hostPath:
+      #      path: /mnt/huge
+  - name: dev
     hostPath:
-      path: /mnt/huge
+      path: /dev
   - name: dpdk-config
     hostPath:
       path: /home/cychong/tmp/dpdk_config
