@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T05:09:54.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="nZI7M-VnjbkWNjq1UvFA" version="17.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-11T05:56:31.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="K8zfJz0rwL54rkAgy0yL" version="17.1.1" type="github" pages="3">
   <diagram id="AWZYIU5muHIaPF7OCgV0" name="Page-1">
     <mxGraphModel dx="739" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Basics of DPDK and hugepage" id="igdwjOhsIR4kDXtv1hfw">
-    <mxGraphModel dx="1012" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="e_TSlZbl3so6d9orSKRr-0" />
         <mxCell id="e_TSlZbl3so6d9orSKRr-1" parent="e_TSlZbl3so6d9orSKRr-0" />
@@ -157,14 +157,14 @@
     </mxGraphModel>
   </diagram>
   <diagram name="How to run DPDK in a k8s" id="uh6hR0cbKmKF20gEIpaL">
-    <mxGraphModel dx="750" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="923" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wRnvG__GZiXTp2W0-cbK-0" />
         <mxCell id="wRnvG__GZiXTp2W0-cbK-1" parent="wRnvG__GZiXTp2W0-cbK-0" />
-        <mxCell id="4Bclp7mjhl-0hepa57uX-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=#CCE5FF;strokeWidth=1;glass=0;sketch=0;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+        <mxCell id="4Bclp7mjhl-0hepa57uX-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="10" y="160" width="380" height="244" as="geometry" />
         </mxCell>
-        <mxCell id="4Bclp7mjhl-0hepa57uX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=#E6E6E6;strokeWidth=1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+        <mxCell id="4Bclp7mjhl-0hepa57uX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=#E6E6E6;strokeWidth=1;gradientColor=#ffffff;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="19" y="170" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="wRnvG__GZiXTp2W0-cbK-4" value="DPDK &amp;nbsp;application&lt;br&gt;(Primary)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
@@ -221,7 +221,7 @@
         <mxCell id="wRnvG__GZiXTp2W0-cbK-17" value="DPDK&amp;nbsp;&lt;br&gt;runtime&lt;br&gt;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="299" y="516" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wRnvG__GZiXTp2W0-cbK-18" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;For multi-process case, the&amp;nbsp;&lt;b&gt;primary&lt;/b&gt; DPDK application creates the DPDK runtime config and&amp;nbsp;hugepage map files.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;And the s&lt;b&gt;econdary&lt;/b&gt;&amp;nbsp;DPDK&amp;nbsp;application refers the&amp;nbsp;files Primary DPDK&amp;nbsp;application had created instead of creating its own files.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;This is how two DPDK&amp;nbsp;application can share hugepage and use DPDK provided resources(mempool, rings and etc.)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+        <mxCell id="wRnvG__GZiXTp2W0-cbK-18" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;For multi-process case, the&amp;nbsp;&lt;b&gt;primary&lt;/b&gt; DPDK application creates the DPDK runtime config and&amp;nbsp;hugepage map files.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;And the &lt;b&gt;secondary&lt;/b&gt;&amp;nbsp;DPDK&amp;nbsp;application refers the&amp;nbsp;files Primary DPDK&amp;nbsp;application had created instead of creating its own files.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;This is how two DPDK&amp;nbsp;application can share hugepage and use DPDK provided resources(mempool, rings and etc.)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="480" y="530" width="310" height="160" as="geometry" />
         </mxCell>
         <mxCell id="wRnvG__GZiXTp2W0-cbK-29" value="How two DPDK applications can share hugepage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
@@ -240,7 +240,7 @@
           <mxGeometry x="209" y="200" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wRnvG__GZiXTp2W0-cbK-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;mount HugePages to container&#39;s file system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="240" y="336" width="100" height="30" as="geometry" />
+          <mxGeometry x="230" y="329" width="110" height="34" as="geometry" />
         </mxCell>
         <mxCell id="wRnvG__GZiXTp2W0-cbK-24" value="DPDK&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;runtime&lt;br style=&quot;font-size: 10px;&quot;&gt;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="129" y="186" width="60" height="30" as="geometry" />
@@ -266,8 +266,11 @@
         <mxCell id="4Bclp7mjhl-0hepa57uX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="4Bclp7mjhl-0hepa57uX-5" target="wRnvG__GZiXTp2W0-cbK-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Bclp7mjhl-0hepa57uX-5" value="HugePages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontColor=#0000FF;strokeColor=#666666;strokeWidth=2;fillColor=none;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+        <mxCell id="4Bclp7mjhl-0hepa57uX-5" value="HugePages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontColor=#0000FF;strokeColor=#0000FF;strokeWidth=2;fillColor=none;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="310" y="303" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_6FY0MC8dlvDrNTt2lT_-0" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Declare(request) Hugepage for Pod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;resource:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; limits:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; hugepage-2Mi: 100Mi&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Create hugepage volume with &#39;HugePages&#39; medium&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px ; color: rgb(0 , 0 , 204) ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;volume:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000cc&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 10px&quot;&gt; - name: hugepage&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;emptryDir&lt;/b&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: &lt;b&gt;HugePages&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Mount to container -&amp;gt; mounted as &#39;hugetblfs&#39; in container&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 10px&quot; face=&quot;Courier New&quot;&gt;volumeMOunts:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 10px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /hugepages&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 10px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: hugepage&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+          <mxGeometry x="470" y="150" width="340" height="226" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
