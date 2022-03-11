@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T02:38:39.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="yf1SF9AUQlJ4Mg4X48XK" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T02:48:30.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="WLY4N7R8h2MiRz5Yju1f" version="17.0.0" type="github" pages="2">
   <diagram id="AWZYIU5muHIaPF7OCgV0" name="Page-1">
-    <mxGraphModel dx="868" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,53 @@
         </mxCell>
         <mxCell id="1IDwZI0KSUE5VmGasGqD-12" value="&lt;div&gt;# cat /proc/mounts | grep hugetlbfs&lt;/div&gt;&lt;div&gt;nodev &lt;b&gt;/hugepages&lt;/b&gt; hugetlbfs rw,relatime,pagesize=2M 0&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="450" width="330" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="igdwjOhsIR4kDXtv1hfw">
+    <mxGraphModel dx="1021" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-0" />
+        <mxCell id="e_TSlZbl3so6d9orSKRr-1" parent="e_TSlZbl3so6d9orSKRr-0" />
+        <mxCell id="e_TSlZbl3so6d9orSKRr-11" value="&lt;div&gt;# cat /proc/mounts | grep hugetlbfs&lt;/div&gt;&lt;div&gt;nodev &lt;b&gt;/hugepages&lt;/b&gt; hugetlbfs rw,relatime,pagesize=2M 0&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="50" y="530" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-12" value="&lt;div&gt;$ ls /var/run/dpdk&lt;/div&gt;&lt;div&gt;config&lt;/div&gt;&lt;div&gt;dpdk_telemetry.v2&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-0&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-0_17&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-1&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-1_17&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-2&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-2_17&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-3&lt;/div&gt;&lt;div&gt;fbarray_memseg-2048k-0-3_17&lt;/div&gt;&lt;div&gt;fbarray_memzone&lt;/div&gt;&lt;div&gt;hugepage_info&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="170" y="20" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-2" value="DPDK &amp;nbsp;application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="50" y="320" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="220" y="400" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="220" y="304" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-5" value="where hugetblfs is mounted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="210" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-6" value="DPDK&amp;nbsp;&lt;br&gt;runtime&lt;br&gt;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="140" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;endFill=0;startArrow=classicThin;startFill=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="e_TSlZbl3so6d9orSKRr-1" source="e_TSlZbl3so6d9orSKRr-3" target="e_TSlZbl3so6d9orSKRr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="e_TSlZbl3so6d9orSKRr-1" source="e_TSlZbl3so6d9orSKRr-4" target="e_TSlZbl3so6d9orSKRr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="330" as="sourcePoint" />
+            <mxPoint x="280" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-9" value="/var/run/dpdk&lt;br&gt;(고정위치)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="220" y="274" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TSlZbl3so6d9orSKRr-10" value="&amp;nbsp;hugepage&lt;br&gt;map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e_TSlZbl3so6d9orSKRr-1">
+          <mxGeometry x="140" y="410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
