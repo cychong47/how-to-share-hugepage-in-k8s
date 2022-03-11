@@ -1,48 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T12:27:58.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="uwORZnykC29r0qIUB8wh" version="17.1.1" type="github" pages="5">
-  <diagram id="AWZYIU5muHIaPF7OCgV0" name="Page-1">
-    <mxGraphModel dx="739" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-1" value="DPDK &amp;nbsp;application" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="160" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="220" y="310" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="330" y="310" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-5" value="where hugetblfs is mounted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="360" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-6" value="DPDK&amp;nbsp;&lt;br&gt;runtime&lt;br&gt;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endFill=0;startArrow=classicThin;startFill=1;" parent="1" source="1IDwZI0KSUE5VmGasGqD-3" target="1IDwZI0KSUE5VmGasGqD-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="400" as="sourcePoint" />
-            <mxPoint x="270" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" parent="1" source="1IDwZI0KSUE5VmGasGqD-4" target="1IDwZI0KSUE5VmGasGqD-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="320" as="sourcePoint" />
-            <mxPoint x="300" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-9" value="/var/run/dpdk&lt;br&gt;(고정위치)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="360" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-11" value="&amp;nbsp;hugepage&lt;br&gt;map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1IDwZI0KSUE5VmGasGqD-12" value="&lt;div&gt;# cat /proc/mounts | grep hugetlbfs&lt;/div&gt;&lt;div&gt;nodev &lt;b&gt;/hugepages&lt;/b&gt; hugetlbfs rw,relatime,pagesize=2M 0&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="450" width="330" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2022-03-11T14:17:51.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="hadnc5mEk6B-ipIbP4vS" version="17.1.1" type="github" pages="5">
   <diagram name="Basics of DPDK and hugepage" id="igdwjOhsIR4kDXtv1hfw">
     <mxGraphModel dx="1246" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,8 +125,16 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="AWZYIU5muHIaPF7OCgV0" name="Create hugetlbfs in pod">
+    <mxGraphModel dx="1246" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="1 container-1 pod" id="uh6hR0cbKmKF20gEIpaL">
-    <mxGraphModel dx="890" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wRnvG__GZiXTp2W0-cbK-0" />
         <mxCell id="wRnvG__GZiXTp2W0-cbK-1" parent="wRnvG__GZiXTp2W0-cbK-0" />
@@ -207,15 +171,15 @@
         <mxCell id="wRnvG__GZiXTp2W0-cbK-24" value="create DPDK&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;runtime&amp;nbsp;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="109.5" y="186" width="99" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wRnvG__GZiXTp2W0-cbK-25" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="Ce0J6uU_xH19y6W-9ovd-5" target="wRnvG__GZiXTp2W0-cbK-20">
+        <mxCell id="wRnvG__GZiXTp2W0-cbK-25" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="plZWo-xI7qz9ZBGuK9rM-0" target="wRnvG__GZiXTp2W0-cbK-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="311.0000000000001" as="sourcePoint" />
+            <mxPoint x="227.16000000000008" y="311.8919999999998" as="sourcePoint" />
             <mxPoint x="139" y="256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wRnvG__GZiXTp2W0-cbK-26" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="Ce0J6uU_xH19y6W-9ovd-12" target="wRnvG__GZiXTp2W0-cbK-20">
+        <mxCell id="wRnvG__GZiXTp2W0-cbK-26" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="plZWo-xI7qz9ZBGuK9rM-2" target="wRnvG__GZiXTp2W0-cbK-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="215" as="sourcePoint" />
+            <mxPoint x="227.15999999999997" y="221.82533333333333" as="sourcePoint" />
             <mxPoint x="269" y="196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -225,10 +189,14 @@
         <mxCell id="wRnvG__GZiXTp2W0-cbK-28" value="create hugepage&lt;br style=&quot;font-size: 10px&quot;&gt;map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="118" y="306" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4Bclp7mjhl-0hepa57uX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" target="Ce0J6uU_xH19y6W-9ovd-5">
+        <mxCell id="4Bclp7mjhl-0hepa57uX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" target="plZWo-xI7qz9ZBGuK9rM-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="239" y="380" as="sourcePoint" />
-            <mxPoint x="239" y="336.0000000000001" as="targetPoint" />
+            <mxPoint x="239.07142857142867" y="324" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="350" />
+              <mxPoint x="239" y="350" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_6FY0MC8dlvDrNTt2lT_-0" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Declare(request) Hugepage for Pod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;resource:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; limits:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; hugepage-2Mi: 100Mi&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Create hugepage volume with &#39;HugePages&#39; medium&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px ; color: rgb(0 , 0 , 204) ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;volume:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000cc&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 10px&quot;&gt; - name: hugepage&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;emptryDir&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#0000cc&quot;&gt;:&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: &lt;b&gt;HugePages&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Mount to container -&amp;gt; mounted as &#39;hugetblfs&#39; in container&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 10px&quot; face=&quot;Courier New&quot;&gt;volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 10px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /hugepages&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 10px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: hugepage&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
@@ -249,15 +217,15 @@
         <mxCell id="_6FY0MC8dlvDrNTt2lT_-25" value="3-1) create DPDK&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;runtime&amp;nbsp;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="119" y="596" width="89" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_6FY0MC8dlvDrNTt2lT_-26" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="Ce0J6uU_xH19y6W-9ovd-15" target="_6FY0MC8dlvDrNTt2lT_-21">
+        <mxCell id="_6FY0MC8dlvDrNTt2lT_-26" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="plZWo-xI7qz9ZBGuK9rM-3" target="_6FY0MC8dlvDrNTt2lT_-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="721" as="sourcePoint" />
+            <mxPoint x="227.15999999999997" y="720.9906666666666" as="sourcePoint" />
             <mxPoint x="139" y="666" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_6FY0MC8dlvDrNTt2lT_-27" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="Ce0J6uU_xH19y6W-9ovd-14" target="_6FY0MC8dlvDrNTt2lT_-21">
+        <mxCell id="_6FY0MC8dlvDrNTt2lT_-27" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="plZWo-xI7qz9ZBGuK9rM-4" target="_6FY0MC8dlvDrNTt2lT_-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="625" as="sourcePoint" />
+            <mxPoint x="227.15999999999997" y="621.9106666666667" as="sourcePoint" />
             <mxPoint x="269" y="606" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -273,20 +241,20 @@
         <mxCell id="_6FY0MC8dlvDrNTt2lT_-33" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Container&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="21" y="580" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wRnvG__GZiXTp2W0-cbK-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="Ce0J6uU_xH19y6W-9ovd-14" target="wRnvG__GZiXTp2W0-cbK-13">
+        <mxCell id="wRnvG__GZiXTp2W0-cbK-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="plZWo-xI7qz9ZBGuK9rM-4" target="wRnvG__GZiXTp2W0-cbK-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="269" y="625" as="sourcePoint" />
+            <mxPoint x="250.84000000000003" y="621.8629508196722" as="sourcePoint" />
             <mxPoint x="129" y="658.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wRnvG__GZiXTp2W0-cbK-15" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="Ce0J6uU_xH19y6W-9ovd-15" target="wRnvG__GZiXTp2W0-cbK-13">
+        <mxCell id="wRnvG__GZiXTp2W0-cbK-15" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="plZWo-xI7qz9ZBGuK9rM-3" target="wRnvG__GZiXTp2W0-cbK-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="269" y="731" as="sourcePoint" />
+            <mxPoint x="250.84000000000003" y="721.04" as="sourcePoint" />
             <mxPoint x="129" y="703.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lGVLvqCHSk1Na45_g1HA-0" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;As primary and secondary DPDK application in the same container use the same file system, it is straight forward to run two DPDK applications(primary &amp;amp; secondary)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="535" y="570" width="270" height="160" as="geometry" />
+        <mxCell id="lGVLvqCHSk1Na45_g1HA-0" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;As primary and secondary DPDK application in the same container use the same file system, it is straight forward to run them - nothing special and identical to the single DPDK application in a container&amp;nbsp;case.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+          <mxGeometry x="10" y="910" width="561" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MUImqUo_pnCpXaY7vUFi-0" value="Single DPDK application in one container/pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="30" y="130" width="360" height="30" as="geometry" />
@@ -294,20 +262,8 @@
         <mxCell id="MUImqUo_pnCpXaY7vUFi-1" value="Multi DPDK application in a single container/pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="30" y="530" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ce0J6uU_xH19y6W-9ovd-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="227.16" y="306" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="Ce0J6uU_xH19y6W-9ovd-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="227.16" y="211" width="23.68" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="Ce0J6uU_xH19y6W-9ovd-13" value="/hugepages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="214" y="276" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ce0J6uU_xH19y6W-9ovd-14" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="227.16" y="610" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="Ce0J6uU_xH19y6W-9ovd-15" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="227.16" y="715" width="23.68" height="18" as="geometry" />
         </mxCell>
         <mxCell id="dzpn_IO3pGXTOyDMfSxY-0" value="&lt;font style=&quot;font-size: 10px&quot;&gt;1) Create a volume with HugePages&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="24" y="381.35" width="186" height="34" as="geometry" />
@@ -336,14 +292,14 @@
         <mxCell id="l1B6kq30KTgom_2xlnq3-8" value="" style="endArrow=openThin;html=1;rounded=0;dashed=1;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#0000FF;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="l1B6kq30KTgom_2xlnq3-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="189" y="783" as="sourcePoint" />
-            <mxPoint x="239" y="733" as="targetPoint" />
+            <mxPoint x="240" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fLPOLNN8Kx60o5wsunp8-0" value="HugePages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontColor=#0000FF;strokeColor=#0000FF;strokeWidth=2;fillColor=#9AC7BF;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
           <mxGeometry x="204" y="854.9992192192192" width="70" height="26.78078078078078" as="geometry" />
         </mxCell>
         <mxCell id="fLPOLNN8Kx60o5wsunp8-1" value="HugePages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontColor=#0000FF;strokeColor=#0000FF;strokeWidth=2;fillColor=#9AC7BF;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
-          <mxGeometry x="204.5" y="439.2192192192192" width="70" height="26.78078078078078" as="geometry" />
+          <mxGeometry x="204" y="439.2192192192192" width="70" height="26.78078078078078" as="geometry" />
         </mxCell>
         <mxCell id="fLPOLNN8Kx60o5wsunp8-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#0000FF;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wRnvG__GZiXTp2W0-cbK-1" source="fLPOLNN8Kx60o5wsunp8-1" target="l1B6kq30KTgom_2xlnq3-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -356,6 +312,18 @@
             <mxPoint x="600" y="850" as="sourcePoint" />
             <mxPoint x="249.00000000000023" y="466.70000000000005" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="plZWo-xI7qz9ZBGuK9rM-0" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+          <mxGeometry x="220.055" y="300" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="plZWo-xI7qz9ZBGuK9rM-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+          <mxGeometry x="220.055" y="200" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="plZWo-xI7qz9ZBGuK9rM-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+          <mxGeometry x="220.055" y="710" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="plZWo-xI7qz9ZBGuK9rM-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="wRnvG__GZiXTp2W0-cbK-1">
+          <mxGeometry x="220.055" y="600" width="37.89" height="28.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -416,15 +384,15 @@
         <mxCell id="zxQlMqsT3awhBGhHMrGH-28" value="3-1) create DPDK&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;runtime&amp;nbsp;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
           <mxGeometry x="136" y="227.68" width="89" height="30.9" as="geometry" />
         </mxCell>
-        <mxCell id="zxQlMqsT3awhBGhHMrGH-29" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="xb3weq7wRXY9cjyNWJm0-1" target="zxQlMqsT3awhBGhHMrGH-24">
+        <mxCell id="zxQlMqsT3awhBGhHMrGH-29" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="5-DcTCrc-lbQ2U1cpl-G-1" target="zxQlMqsT3awhBGhHMrGH-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="245" y="356.4354354354356" as="sourcePoint" />
+            <mxPoint x="225" y="366.2025045573432" as="sourcePoint" />
             <mxPoint x="175" y="299.78378378378375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zxQlMqsT3awhBGhHMrGH-30" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;dashed=1;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="xb3weq7wRXY9cjyNWJm0-36" target="zxQlMqsT3awhBGhHMrGH-24">
+        <mxCell id="zxQlMqsT3awhBGhHMrGH-30" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" target="zxQlMqsT3awhBGhHMrGH-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="245" y="257.5525525525526" as="sourcePoint" />
+            <mxPoint x="220" y="260" as="sourcePoint" />
             <mxPoint x="305" y="237.981981981982" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -440,15 +408,15 @@
         <mxCell id="zxQlMqsT3awhBGhHMrGH-36" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Container-1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;fontStyle=1" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
           <mxGeometry x="57" y="211.2012012012012" width="79" height="30.9009009009009" as="geometry" />
         </mxCell>
-        <mxCell id="zxQlMqsT3awhBGhHMrGH-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" target="zxQlMqsT3awhBGhHMrGH-6" source="xb3weq7wRXY9cjyNWJm0-38">
+        <mxCell id="zxQlMqsT3awhBGhHMrGH-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" target="zxQlMqsT3awhBGhHMrGH-6" source="5-DcTCrc-lbQ2U1cpl-G-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="401" y="257.5525525525526" as="sourcePoint" />
+            <mxPoint x="424.68000000000006" y="261.9956456456456" as="sourcePoint" />
             <mxPoint x="261" y="292.05855855855856" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zxQlMqsT3awhBGhHMrGH-38" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" target="zxQlMqsT3awhBGhHMrGH-6" source="xb3weq7wRXY9cjyNWJm0-3">
+        <mxCell id="zxQlMqsT3awhBGhHMrGH-38" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" target="zxQlMqsT3awhBGhHMrGH-6" source="5-DcTCrc-lbQ2U1cpl-G-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="401" y="366.7357357357357" as="sourcePoint" />
+            <mxPoint x="424.68000000000006" y="366.0674686662709" as="sourcePoint" />
             <mxPoint x="261" y="338.4099099099099" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -464,29 +432,17 @@
         <mxCell id="xb3weq7wRXY9cjyNWJm0-0" value="&lt;font style=&quot;font-size: 10px&quot;&gt;2-2) mount hugepage volume to container&#39;s file system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
           <mxGeometry x="36.5" y="423.39" width="248" height="35.02" as="geometry" />
         </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
-          <mxGeometry x="225" y="363.64564564564563" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="ACg9rflY-crP_VXTv1ZP-0" target="xb3weq7wRXY9cjyNWJm0-1">
+        <mxCell id="xb3weq7wRXY9cjyNWJm0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="ACg9rflY-crP_VXTv1ZP-0" target="5-DcTCrc-lbQ2U1cpl-G-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="306" y="440" as="sourcePoint" />
-            <mxPoint x="237" y="386.3063063063063" as="targetPoint" />
+            <mxPoint x="248.68000000000006" y="373" as="targetPoint" />
             <Array as="points">
               <mxPoint x="306" y="373" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
-          <mxGeometry x="401" y="363.64564564564563" width="23.68" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="xb3weq7wRXY9cjyNWJm0-34" value="&lt;font style=&quot;font-size: 10px&quot;&gt;4-2) mount hugepage volume to container&#39;s file system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
           <mxGeometry x="361" y="423.39" width="267" height="35.02" as="geometry" />
-        </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-36" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
-          <mxGeometry x="225" y="246.99564564564562" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-38" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
-          <mxGeometry x="401" y="246.99564564564562" width="23.68" height="18" as="geometry" />
         </mxCell>
         <mxCell id="xb3weq7wRXY9cjyNWJm0-43" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Courier New;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="74fStExo6-xdtVebLWaz-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -494,11 +450,12 @@
             <mxPoint x="320" y="483.4100000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.249;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="S-CMVYhitxiZvl0coKSp-0" target="xb3weq7wRXY9cjyNWJm0-36">
+        <mxCell id="xb3weq7wRXY9cjyNWJm0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.249;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="S-CMVYhitxiZvl0coKSp-0" target="5-DcTCrc-lbQ2U1cpl-G-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="266" y="200" as="sourcePoint" />
-            <mxPoint x="247" y="391.6456456456456" as="targetPoint" />
+            <mxPoint x="248.68000000000006" y="256" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="306" y="192" />
               <mxPoint x="306" y="256" />
             </Array>
           </mxGeometry>
@@ -506,10 +463,10 @@
         <mxCell id="xb3weq7wRXY9cjyNWJm0-49" value="&lt;font style=&quot;font-size: 10px&quot;&gt;2-1) mount hugepage volume to container&#39;s file system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
           <mxGeometry x="40" y="170" width="248.68" height="35.02" as="geometry" />
         </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.783;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="S-CMVYhitxiZvl0coKSp-0" target="xb3weq7wRXY9cjyNWJm0-38">
+        <mxCell id="xb3weq7wRXY9cjyNWJm0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.783;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="S-CMVYhitxiZvl0coKSp-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="200" as="sourcePoint" />
-            <mxPoint x="316" y="240" as="targetPoint" />
+            <mxPoint x="401" y="256" as="targetPoint" />
             <Array as="points">
               <mxPoint x="337" y="200" />
               <mxPoint x="338" y="200" />
@@ -517,10 +474,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xb3weq7wRXY9cjyNWJm0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="ACg9rflY-crP_VXTv1ZP-0" target="xb3weq7wRXY9cjyNWJm0-3">
+        <mxCell id="xb3weq7wRXY9cjyNWJm0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="zxQlMqsT3awhBGhHMrGH-1" source="ACg9rflY-crP_VXTv1ZP-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="335.78" y="409.5462600000001" as="sourcePoint" />
-            <mxPoint x="322.0000000000001" y="379.6456456456456" as="targetPoint" />
+            <mxPoint x="401" y="373" as="targetPoint" />
             <Array as="points">
               <mxPoint x="340" y="373" />
             </Array>
@@ -535,25 +492,267 @@
         <mxCell id="ACg9rflY-crP_VXTv1ZP-0" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
           <mxGeometry x="291" y="451" width="60" height="36.7" as="geometry" />
         </mxCell>
+        <mxCell id="5-DcTCrc-lbQ2U1cpl-G-0" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
+          <mxGeometry x="219.11" y="242.1" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="5-DcTCrc-lbQ2U1cpl-G-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
+          <mxGeometry x="219.11" y="357.2" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="5-DcTCrc-lbQ2U1cpl-G-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
+          <mxGeometry x="400" y="242.1" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="5-DcTCrc-lbQ2U1cpl-G-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="zxQlMqsT3awhBGhHMrGH-1">
+          <mxGeometry x="400" y="357.2" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="single container on each pod" id="eSZRzuBz1xzn7JckT1l7">
-    <mxGraphModel dx="1246" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bpy0rZaMA0th8SQg3zM2-0" />
         <mxCell id="bpy0rZaMA0th8SQg3zM2-1" parent="bpy0rZaMA0th8SQg3zM2-0" />
-        <mxCell id="_DhMeFKjgncQwpN_kpms-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="12" y="165.88" width="371" height="298.71" as="geometry" />
-        </mxCell>
-        <mxCell id="rpZiRmRLyhqaLgCvqc5M-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="416" y="165.88" width="371" height="298.71" as="geometry" />
-        </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-1" value="Case 2-2. Two Containers ( one container in each pod )" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="39" y="40" width="441" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-2" value="&lt;font size=&quot;2&quot;&gt;To make two DPDK application in different pod to share DPDK runtime config files, both pod has a hostPath backed volume and each container mounts this volume to /var/run/dpdk. This is how two DPDK applications in different pod can share the same DPDK runtime config files.&lt;br&gt;&lt;br&gt;To share hugepage map file, both pod has a hostPath backed volume which path is where the hugetlbfs is mounted in the host. Both container should mount volume to somewhere in the container filesystem (ex, /hugepages)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="70.5" y="600" width="699.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-5" value="" style="group" vertex="1" connectable="0" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="148" y="720" width="531" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-7" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Declare(request) Hugepage&amp;nbsp;from each Pod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;resource:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; limits:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; hugepage-2Mi: 100Mi&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Create hugepage volume with hostPath on each Pod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(/dev/hugepages are the default mount path for default hugepage size)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Create volume for runtime config with hostPath&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Mount volumes to&amp;nbsp;each container&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry width="531" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-8" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;- name: container-1&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /dev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry x="11" y="310" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-9" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;- name: container-2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /dev&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry x="281" y="310" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-0" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: hugepage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name dev&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /dev&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry x="15" y="112" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-2" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: hugepage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name dev&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /dev&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry x="266" y="112" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-3" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /tmp/dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry x="11" y="222" width="190" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-4" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 204)&quot;&gt;&amp;nbsp; - name: dpdk-config&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /tmp/dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
+          <mxGeometry x="262" y="222" width="190" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-6" value="" style="group" vertex="1" connectable="0" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="148" y="1160" width="531" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-7" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;To use non-default hugepage size, mount it first in somewhere in the host such as /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Then&amp;nbsp;mount this path to the hugepage path to the Pod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;If default hugepage is not used, it is not need to mount /dev on the pod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
+          <mxGeometry width="531" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-8" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;- name: container-1&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: mnt-huge&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
+          <mxGeometry x="11" y="204" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-9" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;- name: container-2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: mnt-huge&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
+          <mxGeometry x="281" y="204" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-10" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: hugepage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name mnt-huge&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /mnt/hugepages&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
+          <mxGeometry x="15" y="84" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0yNQpapy9XwoOR-cV-z-11" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;volumes:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; - name: hugepage&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; - name mnt-huge&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
+          <mxGeometry x="266" y="84" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="28.25" y="1653.43" width="371" height="298.71" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="432.25" y="1653.43" width="371" height="298.71" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=#E6E6E6;strokeWidth=1;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="536.25" y="1699.78" width="211" height="206.01" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=#E6E6E6;strokeWidth=1;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="80.25" y="1698.75" width="211" height="206.01" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-57" value="DPDK &amp;nbsp;application&lt;br&gt;&lt;br&gt;(secondary)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="643.25" y="1746.1325825825825" width="80" height="92.70270270270271" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-58" value="/hugepages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="550" y="1869.2" width="101.25" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-60" value="DPDK &amp;nbsp;application&lt;br&gt;&lt;br&gt;(primary)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="100.25" y="1746.1325825825825" width="80" height="92.70270270270271" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-62" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-74" target="RkvNT42VIqOVNXbVjgHK-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270.25" y="1843.9854354354356" as="sourcePoint" />
+            <mxPoint x="200.25" y="1787.3337837837837" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-63" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-109" target="RkvNT42VIqOVNXbVjgHK-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.25" y="1749.5456456456457" as="sourcePoint" />
+            <mxPoint x="330.25" y="1725.531981981982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-64" value="/var/run/dpdk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="225" y="1752.5433033033032" width="60" height="30.9009009009009" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-66" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Pod-2&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;fontStyle=1" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="752.25" y="1691.7512012012012" width="50" height="30.9009009009009" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-67" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Container-1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="82.25" y="1698.7512012012012" width="79" height="30.9009009009009" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-108" target="RkvNT42VIqOVNXbVjgHK-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.9299999999998" y="1749.5456456456457" as="sourcePoint" />
+            <mxPoint x="411.25" y="1779.6085585585586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-69" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-107" target="RkvNT42VIqOVNXbVjgHK-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.9299999999998" y="1853.6174686662712" as="sourcePoint" />
+            <mxPoint x="411.25" y="1825.9599099099098" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-70" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Container-2&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="672.25" y="1698.7512012012012" width="75" height="30.9009009009009" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-71" value="HugePages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontColor=#0000FF;strokeColor=#0000FF;strokeWidth=2;fillColor=#9AC7BF;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="376.25" y="2038.4092192192193" width="70" height="26.78078078078078" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-74" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="242.11" y="1845.8" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331.25" y="1927.55" as="sourcePoint" />
+            <mxPoint x="262.25" y="1873.8563063063061" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="331.25" y="1925.55" />
+              <mxPoint x="331.25" y="1860.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.249;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331.19000000000005" y="1688.4096996996996" as="sourcePoint" />
+            <mxPoint x="273.93000000000006" y="1743.56" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="331" y="1744" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.778;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487.93000000000006" y="1688.4096996996996" as="sourcePoint" />
+            <mxPoint x="551.25" y="1743.52" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="488.25" y="1695.55" />
+              <mxPoint x="488.25" y="1743.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.763;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487.03" y="1925.0693993993993" as="sourcePoint" />
+            <mxPoint x="551.25" y="1860.56" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="487.25" y="1860.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-84" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Courier New;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="346.01" y="1667.849219219219" as="sourcePoint" />
+            <mxPoint x="346.25" y="1637.55" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="346.25" y="1603.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-86" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Courier New;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="411.25" y="2053.189219219219" as="sourcePoint" />
+            <mxPoint x="411.2499999999998" y="2011.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-87" value="hostPath" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="752.25" y="1996.9" width="60" height="35.02" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-88" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394.25" y="1999.5750746268657" as="sourcePoint" />
+            <mxPoint x="346.25" y="1945.9584084084083" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="346.25" y="1999.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-89" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="433.25" y="1997.55" as="sourcePoint" />
+            <mxPoint x="475.25" y="1945.9584084084083" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="481.25" y="1997.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-90" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/filesystems/gnome-fs-directory-visiting.png;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="387.25" y="1580" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-91" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Courier New;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485.25" y="1667.8478078078078" as="sourcePoint" />
+            <mxPoint x="397.25" y="1614" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485.25" y="1603.55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-93" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Pod-1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;fontStyle=1" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="30.25" y="1691.7512012012012" width="50" height="30.9009009009009" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-94" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/stock/gtk-directory.png;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#0000FF;strokeWidth=1;fillColor=#A9C4EB;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="390.25" y="1974.55" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-95" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="316.25" y="1904.76" width="60" height="36.7" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-96" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="451.25" y="1904.76" width="60" height="36.7" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-97" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="451.25" y="1663.27" width="60" height="36.7" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-98" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="316.25" y="1663.27" width="60" height="36.7" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-99" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/filesystems/gnome-fs-directory-visiting.png;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="695.25" y="1990.4099999999999" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-100" value="hugetlbfs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="451.25" y="2003.39" width="60" height="35.02" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-101" value="/hugepages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="230" y="1869.2" width="50" height="20.8" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-103" value="/var/run/dpdk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="550" y="1752.5433033033032" width="60" height="30.9009009009009" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-107" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="550" y="1845.8" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-108" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="550" y="1729.6499999999999" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-109" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="242.11" y="1725" width="37.89" height="28.8" as="geometry" />
+        </mxCell>
+        <mxCell id="_DhMeFKjgncQwpN_kpms-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="12" y="165.88" width="371" height="298.71" as="geometry" />
+        </mxCell>
+        <mxCell id="rpZiRmRLyhqaLgCvqc5M-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0000FF;strokeColor=#666666;fillColor=none;strokeWidth=1;glass=0;sketch=0;gradientColor=#ffffff;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="416" y="165.88" width="371" height="298.71" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-10" value="&lt;font style=&quot;font-size: 10px&quot;&gt;1-1) Create a volume from&amp;nbsp;&lt;font color=&quot;#0000ff&quot;&gt;hostPath&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="135" y="130.85999999999999" width="210" height="35.02" as="geometry" />
@@ -571,7 +770,7 @@
           <mxGeometry x="627" y="258.5825825825826" width="80" height="92.70270270270271" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-15" value="6-2) &amp;nbsp;hugepage&amp;nbsp;map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="565" y="357.2" width="115" height="30.9" as="geometry" />
+          <mxGeometry x="565" y="357.20000000000005" width="115" height="30.9" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-16" value="6-1) DPDK runtime&amp;nbsp;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="565" y="227.68" width="145" height="30.9" as="geometry" />
@@ -582,15 +781,15 @@
         <mxCell id="Tl10RZUMzR6WndqnbjoL-18" value="3-1) create DPDK &amp;nbsp;runtime&amp;nbsp;config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="113.68" y="227.68" width="144" height="30.9" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-19" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="Tl10RZUMzR6WndqnbjoL-33" target="Tl10RZUMzR6WndqnbjoL-17">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-19" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="Tl10RZUMzR6WndqnbjoL-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="254" y="356.4354354354356" as="sourcePoint" />
+            <mxPoint x="234" y="366.2025045573432" as="sourcePoint" />
             <mxPoint x="184" y="299.78378378378375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-20" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;dashed=1;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="Tl10RZUMzR6WndqnbjoL-37" target="Tl10RZUMzR6WndqnbjoL-17">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-20" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;dashed=1;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="Tl10RZUMzR6WndqnbjoL-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="254" y="257.5525525525526" as="sourcePoint" />
+            <mxPoint x="234" y="261.9956456456456" as="sourcePoint" />
             <mxPoint x="314" y="237.981981981982" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -606,15 +805,15 @@
         <mxCell id="Tl10RZUMzR6WndqnbjoL-24" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Container-1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Courier New;fontSize=10;fontColor=#0000CC;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="66" y="211.2012012012012" width="79" height="30.9009009009009" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="Tl10RZUMzR6WndqnbjoL-38" target="Tl10RZUMzR6WndqnbjoL-14">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-110" target="Tl10RZUMzR6WndqnbjoL-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="535" y="257.5525525525526" as="sourcePoint" />
+            <mxPoint x="558.6799999999998" y="261.9956456456456" as="sourcePoint" />
             <mxPoint x="395" y="292.05855855855856" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-26" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="Tl10RZUMzR6WndqnbjoL-35" target="Tl10RZUMzR6WndqnbjoL-14">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-26" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#000000;dashed=1;fontColor=#000000;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" source="RkvNT42VIqOVNXbVjgHK-113" target="Tl10RZUMzR6WndqnbjoL-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="535" y="366.7357357357357" as="sourcePoint" />
+            <mxPoint x="558.6799999999998" y="366.0674686662709" as="sourcePoint" />
             <mxPoint x="395" y="338.4099099099099" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -625,40 +824,27 @@
           <mxGeometry x="360" y="550.8592192192192" width="70" height="26.78078078078078" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-31" value="&lt;font style=&quot;font-size: 10px&quot;&gt;1-2) Create a volume from&amp;nbsp;&lt;font color=&quot;#0000ff&quot;&gt;hostPath where hugetlbfs is mounted in host&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="139" y="467.84" width="188" height="35.02" as="geometry" />
+          <mxGeometry x="139" y="467.84000000000003" width="188" height="35.02" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-32" value="&lt;font style=&quot;font-size: 10px&quot;&gt;2-2) mount hugepage volume to container&#39;s file system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="39" y="423.39" width="246" height="35.02" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-33" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="234" y="363.64564564564563" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="Tl10RZUMzR6WndqnbjoL-33">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-112">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="440" as="sourcePoint" />
-            <mxPoint x="246" y="386.3063063063063" as="targetPoint" />
+            <mxPoint x="257.67999999999984" y="372.58333333333337" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="315" y="438" />
-              <mxPoint x="315" y="373" />
+              <mxPoint x="315" y="368" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-35" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="535" y="363.64564564564563" width="23.68" height="18" as="geometry" />
         </mxCell>
         <mxCell id="Tl10RZUMzR6WndqnbjoL-36" value="&lt;font style=&quot;font-size: 10px&quot;&gt;5-2) mount hugepage volume to container&#39;s file system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="495" y="423.39" width="264" height="35.02" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-37" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="234" y="246.99564564564562" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-38" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="535" y="246.99564564564562" width="23.68" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.249;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="Tl10RZUMzR6WndqnbjoL-37">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.249;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="RkvNT42VIqOVNXbVjgHK-111">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="314.94000000000005" y="200.8596996996996" as="sourcePoint" />
-            <mxPoint x="256" y="391.6456456456456" as="targetPoint" />
+            <mxPoint x="257.67999999999984" y="256" as="targetPoint" />
             <Array as="points">
               <mxPoint x="315" y="256" />
             </Array>
@@ -667,20 +853,20 @@
         <mxCell id="Tl10RZUMzR6WndqnbjoL-41" value="&lt;font style=&quot;font-size: 10px&quot;&gt;2-1) mount hugepage volume to container&#39;s file system&lt;br&gt;to /var/run/dpdk&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="39" y="170" width="258.68" height="35.02" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.778;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="Tl10RZUMzR6WndqnbjoL-38">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.778;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="471.68000000000006" y="200.8596996996996" as="sourcePoint" />
-            <mxPoint x="450" y="240" as="targetPoint" />
+            <mxPoint x="535" y="256" as="targetPoint" />
             <Array as="points">
               <mxPoint x="472" y="208" />
               <mxPoint x="472" y="256" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.763;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1" target="Tl10RZUMzR6WndqnbjoL-35">
+        <mxCell id="Tl10RZUMzR6WndqnbjoL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#0000FF;strokeWidth=1;endArrow=openThin;endFill=0;strokeColor=#0000FF;startArrow=none;dashPattern=1 2;exitX=0.763;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470.78" y="437.5193993993994" as="sourcePoint" />
-            <mxPoint x="456.0000000000001" y="379.6456456456456" as="targetPoint" />
+            <mxPoint x="535" y="373.0000000000001" as="targetPoint" />
             <Array as="points">
               <mxPoint x="471" y="373" />
             </Array>
@@ -747,10 +933,10 @@
           <mxGeometry x="374" y="487" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="cN5za5AVxkvU1hWltUcu-0" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="300" y="417.21" width="60" height="36.7" as="geometry" />
+          <mxGeometry x="300" y="417.21000000000004" width="60" height="36.7" as="geometry" />
         </mxCell>
         <mxCell id="cN5za5AVxkvU1hWltUcu-1" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="435" y="417.21" width="60" height="36.7" as="geometry" />
+          <mxGeometry x="435" y="417.21000000000004" width="60" height="36.7" as="geometry" />
         </mxCell>
         <mxCell id="cN5za5AVxkvU1hWltUcu-2" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="435" y="175.72" width="60" height="36.7" as="geometry" />
@@ -761,47 +947,17 @@
         <mxCell id="uchhLotHWr6gSEPVpL7E-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/filesystems/gnome-fs-directory-visiting.png;rounded=1;shadow=0;glass=0;sketch=0;fontFamily=Courier New;fontSize=11;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;fillColor=#CCCCCC;gradientColor=#ffffff;gradientDirection=north;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
           <mxGeometry x="679" y="502.86" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-5" value="" style="group" vertex="1" connectable="0" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="148" y="720" width="531" height="420" as="geometry" />
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-111" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="230" y="241.2" width="37.89" height="28.8" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-7" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Declare(request) Hugepage&amp;nbsp;from each Pod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;resource:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; limits:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; hugepage-2Mi: 100Mi&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Create hugepage volume with hostPath on each Pod&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(/dev/hugepages are the default mount path for default hugepage size)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Create volume for runtime config with hostPath&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot; color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Mount volumes to&amp;nbsp;each container&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry width="531" height="420" as="geometry" />
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-112" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="230" y="353.39" width="37.89" height="28.8" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-8" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;- name: container-1&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /dev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry x="11" y="310" width="190" height="110" as="geometry" />
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-113" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="536.25" y="357.2" width="37.89" height="28.8" as="geometry" />
         </mxCell>
-        <mxCell id="Tl10RZUMzR6WndqnbjoL-9" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;- name: container-2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /dev&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dev&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry x="281" y="310" width="190" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-0" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: hugepage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name dev&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /dev&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry x="15" y="112" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-2" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: hugepage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name dev&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /dev&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry x="266" y="112" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-3" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /tmp/dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry x="11" y="222" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-4" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 204)&quot;&gt;&amp;nbsp; - name: dpdk-config&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /tmp/dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-5">
-          <mxGeometry x="262" y="222" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-6" value="" style="group" vertex="1" connectable="0" parent="bpy0rZaMA0th8SQg3zM2-1">
-          <mxGeometry x="148" y="1160" width="531" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-7" value="&lt;div&gt;&lt;font size=&quot;2&quot;&gt;To use non-default hugepage size, mount it first in somewhere in the host such as /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;Then&amp;nbsp;mount this path to the hugepage path to the Pod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;If default hugepage is not used, it is not need to mount /dev on the pod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;dashed=1;spacing=6;dashPattern=1 1;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
-          <mxGeometry width="531" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-8" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;- name: container-1&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: mnt-huge&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
-          <mxGeometry x="11" y="204" width="190" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-9" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;- name: container-2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; volumeMounts:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: mnt-huge&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; - mountPath: /var/run/dpdk&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; name: dpdk-config&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
-          <mxGeometry x="281" y="204" width="190" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-10" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;volumes:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name: hugepage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; - name mnt-huge&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /mnt/hugepages&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
-          <mxGeometry x="15" y="84" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="S0yNQpapy9XwoOR-cV-z-11" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; font-size: 10px&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;volumes:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; - name: hugepage&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; emptyDIr:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; medium: Hugepages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; - name mnt-huge&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; hostPath:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; path: /mnt/hugepages&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Courier New;fontColor=#000000;verticalAlign=top;" vertex="1" parent="S0yNQpapy9XwoOR-cV-z-6">
-          <mxGeometry x="266" y="84" width="190" height="100" as="geometry" />
+        <mxCell id="RkvNT42VIqOVNXbVjgHK-110" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;rounded=1;glass=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;strokeWidth=4;perimeterSpacing=1;" vertex="1" parent="bpy0rZaMA0th8SQg3zM2-1">
+          <mxGeometry x="536.25" y="242.09999999999997" width="37.89" height="28.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
