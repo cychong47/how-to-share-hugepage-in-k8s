@@ -30,8 +30,21 @@ And `resources` of each container should declare required amount of hugepages
 ## one-container-in-a-single-pod
 
 - One container in a single pod
-- hugepage is mounted as `/hugepages` and hugepage map files of DPDK applications are located
+- Mount `hugetlbfs` where hugepage map files of DPDK applications are located
+- No need to mount `/var/run/dpdk` as `/var' is present already.
 
+```yaml
+  volumes:
+  - name: hugepage
+    emptyDir:
+      medium: HugePages
+```
+
+```yaml
+    volumeMounts:
+    - mountPath: /hugepages
+      name: hugepage
+```
 
 ## two-containers-in-a-single-pod
 
@@ -71,10 +84,11 @@ And `resources` of each container should declare required amount of hugepages
 
 ## one-container-in-each-pod
 
-Two pods each has a single container
+Two pods has a single container on each.
 
 ### `hugetblfs`
 - This location should be backed with `hostPath` where `hugetlbfs` is mounted in node
+- No need to create hugepage volume with `emptyDir`
 
 From node, 
 ```
@@ -84,15 +98,15 @@ hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
 
 ```yaml
   volumes:
-  - name: dev
+  - name: dev-hp
     hostPath:
-      path: /dev
+      path: /dev/hugepages
 ```
 
 ```yaml
     volumeMounts:
-    - mountPath: /dev
-      name: dev
+    - mountPath: /dev/hugepages
+      name: dev-hp
 ```
 
 
