@@ -22,3 +22,7 @@ Nothing to do as `/var/run` is already exist in container filesystem
     - mountPath: /hugepages
       name: hugepage
 ```
+![](2022-03-14-dpdk-hugepage-1c-1p-1.png)  
+![](2022-03-14-dpdk-hugepage-1c-1p-2.png)  
+![](2022-03-14-dpdk-hugepage-1c-1p-3.png)  
+![](2022-03-14-dpdk-hugepage-1c-1p-4.png)  
