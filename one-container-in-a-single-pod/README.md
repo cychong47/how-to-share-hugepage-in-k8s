@@ -9,6 +9,10 @@
       medium: HugePages
 ```
 
+## DPDK runtime config
+
+Nothing to do as `/var/run` is already exist in container filesystem
+
 ## Mount hugepage on a container
 
 ```yaml
