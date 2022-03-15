@@ -27,3 +27,5 @@
     - mountPath: /var/run/dpdk
       name: dpdk-config
 ```
+![](2022-03-14-dpdk-hugepage-2c-1p-1.png)  
+![](2022-03-14-dpdk-hugepage-2c-1p-2.png)
